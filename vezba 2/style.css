@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 88vh;
+    background-image: url("./login-background.jpg");
+}
+header{
+    width: 100%;
+    height: 12vh;
+    background-color: orange;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+    color: white;
+}
+.first{
+    width: 40%;
+    padding: 1rem 0;
+    float: left;
+    margin-left: 2rem;
+
+
+}
+.second{
+    width: 30%;
+    float: right;
+    padding: 1rem 0 ;
+    margin-right: 2rem;
+}
+.button{
+    width: 110%;
+    height: 5vh;
+    background-color: rgb(60, 224, 60);
+    padding-top: 5px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 12vh;
+    background-color: orange;
+}
+h1{
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+p{
+    color: white;
+    text-align: center;
+}
+form{
+    text-align: center;
+    margin-top: 3rem;
+}
+.inp{
+    width: 30%;
+    height: 5vh;
+}
+.best{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#fname{
+    margin-left: 1rem;
+}
+label{
+    color: white;
+}
+#login{
+    width: 30%;
+    height: 5vh;
+    color: white;
+    background-color: green;
+    text-align: center;
+    margin-left: 4rem;
+}
+.check{
+    width: 83%; 
+    margin-top: 1rem;
+}
+#check{
+    display: inline;
+    
+}
+p{
+    display: inline;
+}
+.foot{
+    padding-top: 1.5rem;
+}
+
+#login-1{
+    background-color: blue;
+    width: 30%;
+    height: 5vh;
+    color: white;
+    text-align: center;
+    margin-left: 4rem;
+}
